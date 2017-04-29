@@ -11,6 +11,7 @@ from odoo.http import request
 from odoo.addons.web.controllers.main import ExcelExport
 from odoo.tools.misc import str2bool, xlwt
 from cStringIO import StringIO
+import datetime
 
 class ExcelExportView(ExcelExport):
     def __getattribute__(self, name):
